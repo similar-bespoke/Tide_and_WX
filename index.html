@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 5px; /* Adjust as needed */
+        border: 1px solid #ddd;
+        text-align: center;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+    }
+    th {
+        background-color: #506BCF;
+        color: white;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    @media screen and (max-width: 600px) {
+        table, th, td {
+            width: 100%;
+            display: block;
+        }
+        th {
+            display: none;
+        }
+        td {
+            padding-left: 50%;
+            text-align: right;
+        }
+        td:before {
+            content: attr(data-header);
+            position: absolute;
+            left: 15px;
+            width: 50%;
+            padding-left: 15px;
+            font-weight: bold;
+            text-align: left;
+        }
+    }
+</style>
+</head>
+<body>
+
+<table>
+<tr><th>Weather Info</th><th>St Mawes Harbour</th><th>The Pandora</th><th>Helford Restaurants</th><th>Fowey</th><th>Kynance Cove</th><th>St Michaels Mount</th><th>Salcombe</th><th>Great Yarmouth</th></tr><tr><td>Today's Wind Force</td><td>Force 1</td><td>Force 1</td><td>Force 1</td><td>Force 1</td><td>Force 1</td><td>Force 2</td><td>Force 2</td><td>Force 2</td></tr><tr><td>Today's Wind Direction</td><td>North North Westerly</td><td>North North Westerly</td><td>North North Westerly</td><td>Northerly</td><td>North North Westerly</td><td>Northerly</td><td>Northerly</td><td>Northerly</td></tr><tr><td>Tomorrow's Wind Force</td><td>Force 3</td><td>Force 3</td><td>Force 3</td><td>Force 2</td><td>Force 3</td><td>Force 3</td><td>Force 2</td><td>Force 3</td></tr><tr><td>Tomorrow's Wind Direction</td><td>Northerly</td><td>Northerly</td><td>Northerly</td><td>North North Westerly</td><td>Northerly</td><td>Northerly</td><td>North Easterly</td><td>North North Westerly</td></tr><tr><th>Times</th><th>St Mawes Harbour</th><th>The Pandora</th><th>Helford Restaurants</th><th>Fowey</th><th>Kynance Cove</th><th>St Michaels Mount</th><th>Salcombe</th><th>Great Yarmouth</th></tr><td>Current Tide Height</td><td>5.0</td><td>5.0</td><td>5.1</td><td>5.2</td><td>4.9</td><td>5.1</td><td>4.7</td><td>1.6</td></tr><tr><td>19:38 BST today</td><td>5.0</td><td>5.0</td><td>5.1</td><td>5.2</td><td></td><td>5.1</td><td>4.7</td><td>1.6</td></tr><tr><td>20:38 BST today</td><td>4.7</td><td>4.7</td><td>4.8</td><td>5.0</td><td></td><td>4.5</td><td>4.7</td><td>2.0</td></tr><tr><td>21:38 BST today</td><td>4.1</td><td>4.1</td><td>4.2</td><td>4.4</td><td></td><td>3.7</td><td>4.3</td><td>2.1</td></tr><tr><td>22:38 BST today</td><td>3.2</td><td>3.2</td><td></td><td>3.5</td><td></td><td></td><td>3.6</td><td>2.3</td></tr><tr><td>23:38 BST today</td><td>2.2</td><td></td><td></td><td>2.4</td><td></td><td></td><td>2.6</td><td>2.3</td></tr><tr><td>00:38 BST tomorrow</td><td></td><td></td><td></td><td></td><td>1.1</td><td></td><td>1.5</td><td>2.1</td></tr><tr><td>01:38 BST tomorrow</td><td></td><td></td><td></td><td></td><td>0.8</td><td></td><td></td><td>1.6</td></tr><tr><td>02:38 BST tomorrow</td><td></td><td></td><td></td><td></td><td>1.2</td><td></td><td></td><td>1.2</td></tr><tr><td>03:38 BST tomorrow</td><td></td><td></td><td></td><td>1.8</td><td></td><td></td><td></td><td>0.9</td></tr><tr><td>04:38 BST tomorrow</td><td>2.9</td><td></td><td></td><td>3.0</td><td></td><td>3.5</td><td>2.4</td><td>0.7</td></tr><tr><td>05:38 BST tomorrow</td><td>3.9</td><td>3.9</td><td>4.1</td><td>4.0</td><td></td><td>4.5</td><td>3.3</td><td>0.7</td></tr><tr><td>06:38 BST tomorrow</td><td>4.6</td><td>4.6</td><td>4.7</td><td>4.7</td><td></td><td>5.1</td><td>3.9</td><td>1.0</td></tr><tr><td>07:38 BST tomorrow</td><td>4.8</td><td>4.8</td><td>4.9</td><td>5.0</td><td></td><td>5.0</td><td>4.4</td><td>1.6</td></tr><tr><td>08:38 BST tomorrow</td><td>4.6</td><td>4.6</td><td>4.7</td><td>4.9</td><td></td><td>4.5</td><td>4.5</td><td>2.0</td></tr></table>
